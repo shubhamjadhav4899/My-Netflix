@@ -11,7 +11,7 @@ function Main() {
         <Banner/>
       <Row
         title="Netflix Original"
-        isLarge
+        isLarge 
         fetchUrl={request.fetchNetflixOriginal}
       />
       <Row title="Trending" fetchUrl={request.fetchTrendincg} />

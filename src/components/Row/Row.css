@@ -10,6 +10,10 @@
     padding: 20px;
     scrollbar-width: none; /* Firefox and Edge */
   }
+  .row_posters::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
 
 .row_poster{
     width: 100%;
